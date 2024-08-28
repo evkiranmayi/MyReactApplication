@@ -1,0 +1,81 @@
+.foodCard {
+    background: #edefee;
+    border-radius: 16px;
+    width: 18rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 27rem;
+  }
+  
+  .foodCard-image {
+    width: 100%;
+  }
+  
+  .foodCard-title {
+    font-weight: 600;
+    color: #000000;
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .foodCard-description {
+    font-size: 16px;
+    color: #495E57;
+    font-weight: 400;
+    margin: 0;
+  }
+  
+  .foodCard-price {
+    font-size: 20px;
+    margin: 0;
+    color: #ee9972;
+    font-weight: 600;
+  }
+  
+  .foodCard-body {
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 1.5rem;
+    display: flex;
+  }
+  
+  .foodCard-body-header {
+    flex-grow: 1;
+  }
+  
+  .foodCard-body-title-header {
+    display: flex;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  
+  .foodCard-delivery {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: flex-start;
+    align-content: flex-end;
+  }
+  
+  .foodCard-delivery-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0.5rem 0 0 ;
+    color: black;
+  }
+  @media screen and (max-width: 767px) {
+    .foodCard {
+      background: #edefee;
+      height: 100%;
+      min-height: 27rem;
+      width: 18rem;
+      overflow: hidden;
+      border-radius: 16px;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 1rem;
+    }
+    
+  }

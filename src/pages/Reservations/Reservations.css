@@ -1,0 +1,56 @@
+.reserveTable {
+    width: 100vw;
+    max-width: 65rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+  }
+  
+  .reserveTable-card {
+    background: #495e57;
+    border-radius: 16px;
+    width: 49%;
+    padding: 2rem;
+    margin-bottom: 4rem;
+  }
+  
+  .reserveTable-title {
+    font-size: 40px;
+    font-weight: 600;
+    justify-content: center;
+    margin-bottom: 2rem;
+    color: #fff;
+    margin-top: 0;
+    display: flex;
+    background: #495e57;
+    
+  }
+  @media screen and (max-width: 767px) {
+    .reserveTable {
+      width: 100vw;
+      max-width: 65rem;
+      justify-content: center;
+      align-items: center;  
+      margin: 0 auto;
+      display: flex; 
+    }
+  
+    .reserveTable-card {
+      background: #495e57;
+      border-radius: 16px;
+      padding: 2rem;
+      width: 80%;
+    }
+  
+    .reserveTable-title {
+      font-size: 40px;
+      font-weight: 600;
+      margin-bottom: 2rem;
+      display: flex;
+      justify-content: center;
+      background: #495e57;
+      color: #fff;
+      margin-top: 6rem;
+    }
+  }

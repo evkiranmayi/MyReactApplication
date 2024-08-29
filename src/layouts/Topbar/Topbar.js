@@ -26,7 +26,7 @@ const Topbar = () => {
   ];
 
   return (
-    <header className="topbar">
+    <header role = "header" className="topbar">
       <div className="logo">
         <img src={Logo} alt="logo" height={50} onClick={onClickImage} />
       </div>
